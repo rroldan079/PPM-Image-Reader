@@ -28,8 +28,9 @@ public class Main {
 		Scanner input = new Scanner(System.in);
 	    String image = input.next();
 		PPMImage obj = new PPMImage(image);
-		
-		
+
+
+		// while loop running a switch statement along with instructions for how to choice different image manipulation options. 
 		while(true) {
 			System.out.println("Enter 1 for image insertion");
 			System.out.println("Enter 2 to change image to grayscale");
